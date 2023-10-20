@@ -5,12 +5,14 @@
 
 @keyframes pacman2 {
 0% {transform: rotate(-45deg);}
-100% {transform: rotate(0deg);}
+100% {transform: rotate(10deg);}
 }
 
 @keyframes pacman3 {
-0% { box-shadow: 100px 65px 0 0 white, 160px 65px 0 0 white, 220px 65px 0 0 white, 220px 125px 0 0 white, 220px 185px 0 0 white, 220px 245px 0 0 white, 280px 245px 0 0 white, 340px 245px 0 0 white, 400px 245px 0 0 transparent; }
-100% { box-shadow: 40px 65px 0 0 white, 100px 65px 0 0 white, 160px 65px 0 0 white, 220px 65px 0 0 white, 220px 125px 0 0 white, 220px 185px 0 0 white, 220px 245px 0 0 white, 280px 245px 0 0 white, 340px 245px 0 0 white; }
+0% { box-shadow: 100px 65px 0 0 white, 160px 65px 0 0 white, 220px 65px 0 0 white, 220px 125px 0 0 white,
+   220px 185px 0 0 white, 220px 245px 0 0 white, 280px 245px 0 0 white, 340px 245px 0 0 white, 400px 245px 0 0 transparent; }
+100% { box-shadow: 40px 65px 0 0 white, 100px 65px 0 0 white, 160px 65px 0 0 white, 220px 65px 0 0 white,
+  220px 125px 0 0 white, 220px 185px 0 0 white, 220px 245px 0 0 white, 280px 245px 0 0 white, 340px 245px 0 0 white; }
 }
 
 
@@ -53,7 +55,7 @@ h1::first-line {
   font-weight: bold;
   text-decoration: underline;
   text-decoration-thickness: 5px;
-  color: hsl(36, 87%, 68%);
+  color: #f8b653;
   text-shadow: 1px 1px 2px , 0 0 1em;
 }
 h1::first-letter {
